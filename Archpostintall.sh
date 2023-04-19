@@ -33,4 +33,7 @@ else
 echo "Error installing asdf. Skipping to next part."
 fi
 
+## Mover .bash_aliases
+mv /pos-instala-o-arch-linux/.bash_aliases ~/
+
 echo "Setup completed successfully."
