@@ -31,3 +31,4 @@ fi
 echo "alias PACU='sudo pacman -Syyu'" >> ~/.bash_aliases
 
 echo "Setup completed successfully."
+
