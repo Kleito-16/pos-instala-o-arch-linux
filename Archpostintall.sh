@@ -11,7 +11,7 @@ trap 'error_handler ${LINENO} $?' ERR
 pacman-key --init && pacman-key --populate && pacman -Sy archlinux-keyring && pacman -Su && pacman -Syyu
 
 # Install packages
-sudo pacman -S firefox yakuake openssh qbittorrent k3b konsole dolphin ark kate neofetch git wget
+sudo pacman -S firefox yakuake openssh qbittorrent k3b konsole alacritty dolphin ark kate neofetch git wget barrier packagekit-qt5
 
 # Install yay
 if sudo pacman -S --needed  base-devel  base-devel curl rust  && cd /tmp && git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si && cd /home; then
