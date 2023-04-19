@@ -33,7 +33,7 @@ else
 echo "Error installing asdf. Skipping to next part."
 fi
 
-## Mover .bash_aliases
+## criar o alias
 echo "alias PACU='sudo pacman -Syyu'" >> ~/.bash_aliases
 
 
